@@ -1,0 +1,552 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4f452 && [1/2] Building CXX object CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccvwjl8n.s
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/arm-oe-linux-gnueabi"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/backward"
+ignoring nonexistent directory "/not/exist/usr/lib/arm-oe-linux-gnueabi/9.3.0/include"
+ignoring nonexistent directory "/not/exist/usr/local/include"
+ignoring nonexistent directory "/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/../../../../../arm-oe-linux-gnueabi/include"
+ignoring nonexistent directory "/not/exist/usr/include/"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include-fixed
+End of search list.
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 58931bd2cbac4b28e474672a1f9a975f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvwjl8n.s
+GNU assembler version 2.34.0 (arm-oe-linux-gnueabi) using BFD version (GNU Binutils) 2.34.0.20200220
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+[2/2] Linking CXX executable cmTC_4f452
+FAILED: cmTC_4f452 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++  -v CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4f452   && :
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f452' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/collect2 -plugin /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/liblto_plugin.so -plugin-opt=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvxNMOE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/not/exist --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -pie -o cmTC_4f452 Scrt1.o crti.o crtbeginS.o -L/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0 CMakeFiles/cmTC_4f452.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc crtendS.o crtn.o
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3e843 && [1/2] Building CXX object CMakeFiles/cmTC_3e843.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_3e843
+FAILED: cmTC_3e843 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   CMakeFiles/cmTC_3e843.dir/testCXXCompiler.cxx.o -o cmTC_3e843   && :
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e60cb && [1/2] Building CXX object CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccWJGKzy.s
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/arm-oe-linux-gnueabi"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/backward"
+ignoring nonexistent directory "/not/exist/usr/lib/arm-oe-linux-gnueabi/9.3.0/include"
+ignoring nonexistent directory "/not/exist/usr/local/include"
+ignoring nonexistent directory "/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/../../../../../arm-oe-linux-gnueabi/include"
+ignoring nonexistent directory "/not/exist/usr/include/"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include-fixed
+End of search list.
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 58931bd2cbac4b28e474672a1f9a975f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWJGKzy.s
+GNU assembler version 2.34.0 (arm-oe-linux-gnueabi) using BFD version (GNU Binutils) 2.34.0.20200220
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+[2/2] Linking CXX executable cmTC_e60cb
+FAILED: cmTC_e60cb 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++  -v CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e60cb   && :
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e60cb' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/collect2 -plugin /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/liblto_plugin.so -plugin-opt=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrswn0P.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/not/exist --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -pie -o cmTC_e60cb Scrt1.o crti.o crtbeginS.o -L/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0 CMakeFiles/cmTC_e60cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc crtendS.o crtn.o
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4862d && [1/2] Building CXX object CMakeFiles/cmTC_4862d.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_4862d
+FAILED: cmTC_4862d 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   CMakeFiles/cmTC_4862d.dir/testCXXCompiler.cxx.o -o cmTC_4862d   && :
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e46d4 && [1/2] Building CXX object CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccL08cb2.s
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/arm-oe-linux-gnueabi"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/backward"
+ignoring nonexistent directory "/not/exist/usr/lib/arm-oe-linux-gnueabi/9.3.0/include"
+ignoring nonexistent directory "/not/exist/usr/local/include"
+ignoring nonexistent directory "/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/../../../../../arm-oe-linux-gnueabi/include"
+ignoring nonexistent directory "/not/exist/usr/include/"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include-fixed
+End of search list.
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 58931bd2cbac4b28e474672a1f9a975f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccL08cb2.s
+GNU assembler version 2.34.0 (arm-oe-linux-gnueabi) using BFD version (GNU Binutils) 2.34.0.20200220
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+[2/2] Linking CXX executable cmTC_e46d4
+FAILED: cmTC_e46d4 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++  -v CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e46d4   && :
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e46d4' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/collect2 -plugin /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/liblto_plugin.so -plugin-opt=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJzuRDl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/not/exist --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -pie -o cmTC_e46d4 Scrt1.o crti.o crtbeginS.o -L/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0 CMakeFiles/cmTC_e46d4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc crtendS.o crtn.o
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_aea75 && [1/2] Building CXX object CMakeFiles/cmTC_aea75.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_aea75
+FAILED: cmTC_aea75 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   CMakeFiles/cmTC_aea75.dir/testCXXCompiler.cxx.o -o cmTC_aea75   && :
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_27d4e && [1/2] Building CXX object CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccQSImHo.s
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/arm-oe-linux-gnueabi"
+ignoring nonexistent directory "/not/exist/usr/include/c++/9.3.0/backward"
+ignoring nonexistent directory "/not/exist/usr/lib/arm-oe-linux-gnueabi/9.3.0/include"
+ignoring nonexistent directory "/not/exist/usr/local/include"
+ignoring nonexistent directory "/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/../../../../../arm-oe-linux-gnueabi/include"
+ignoring nonexistent directory "/not/exist/usr/include/"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/include-fixed
+End of search list.
+GNU C++14 (GCC) version 9.3.0 (arm-oe-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 58931bd2cbac4b28e474672a1f9a975f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQSImHo.s
+GNU assembler version 2.34.0 (arm-oe-linux-gnueabi) using BFD version (GNU Binutils) 2.34.0.20200220
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+[2/2] Linking CXX executable cmTC_27d4e
+FAILED: cmTC_27d4e 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++  -v CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_27d4e   && :
+Using built-in specs.
+COLLECT_GCC=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper
+Target: arm-oe-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-9.3.0-r0/gcc-9.3.0/configure --build=x86_64-linux --host=x86_64-chargestorm-linux --target=arm-oe-linux-gnueabi --prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --exec_prefix=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr --bindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --sbindir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi --libexecdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi --datadir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share --sysconfdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/etc --sharedstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/com --localstatedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/var --libdir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi --includedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --oldincludedir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/include --infodir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/info --mandir=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-oe-linux-gnueabi- --without-local-prefix --disable-install-libiberty --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/9.3.0 --with-build-time-tools=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot-native/usr/arm-oe-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/jenkins/workspace/oe-sdk_master/build-gm-ccu/tmp/work/x86_64-nativesdk-chargestorm-linux/gcc-cross-canadian-arm/9.3.0-r0/recipe-sysroot --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COMPILER_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/:/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/
+LIBRARY_PATH=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27d4e' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/collect2 -plugin /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/liblto_plugin.so -plugin-opt=/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc51FXfG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/not/exist --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -pie -o cmTC_27d4e Scrt1.o crti.o crtbeginS.o -L/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0 CMakeFiles/cmTC_27d4e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc crtendS.o crtn.o
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b0c7e && [1/2] Building CXX object CMakeFiles/cmTC_b0c7e.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_b0c7e
+FAILED: cmTC_b0c7e 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++   CMakeFiles/cmTC_b0c7e.dir/testCXXCompiler.cxx.o -o cmTC_b0c7e   && :
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_36ef5 && [1/2] Building CXX object CMakeFiles/cmTC_36ef5.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_36ef5
+FAILED: cmTC_36ef5 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++     CMakeFiles/cmTC_36ef5.dir/testCXXCompiler.cxx.o  -o cmTC_36ef5   && :
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/thoang@creatorctek.local/chi/build-test-SAMA5D2-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_031e6 && [1/2] Building CXX object CMakeFiles/cmTC_031e6.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_031e6
+FAILED: cmTC_031e6 
+: && /opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-g++     CMakeFiles/cmTC_031e6.dir/testCXXCompiler.cxx.o  -o cmTC_031e6   && :
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lstdc++
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lm
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc_s
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find -lgcc
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/opt/cschargeos-gui/4.1/sysroots/x86_64-chargestorm-linux/usr/libexec/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
