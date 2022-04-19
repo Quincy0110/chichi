@@ -6,7 +6,8 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-360dd30048616390934a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -39,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-bd7ac4cda6d41a99a132.json",
+					"jsonFile" : "target-test-Debug-6b0061c30c4e83b64901.json",
 					"name" : "test",
 					"projectIndex" : 0
 				}

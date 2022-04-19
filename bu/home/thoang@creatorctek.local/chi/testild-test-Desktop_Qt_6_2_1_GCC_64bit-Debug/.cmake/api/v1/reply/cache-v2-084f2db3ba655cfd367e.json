@@ -459,11 +459,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Install path prefix, prepended onto install directories."
+					"value" : "chihtq change"
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/local"
+			"value" : "."
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
