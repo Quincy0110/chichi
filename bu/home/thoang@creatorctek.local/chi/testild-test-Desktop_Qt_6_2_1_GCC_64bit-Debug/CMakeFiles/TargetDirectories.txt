@@ -1,7 +1,0 @@
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/install/strip.dir
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/test.dir
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/thoang@creatorctek.local/chi/bu/home/thoang@creatorctek.local/chi/testild-test-Desktop_Qt_6_2_1_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
