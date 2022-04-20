@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<testsuites disabled="0" errors="0" failures="19" tests="19" time="0.0">
-	<testsuite disabled="0" errors="0" failures="19" name="test-results.xml" skipped="0" tests="19" time="0">
+<testsuites disabled="0" errors="0" failures="4" tests="19" time="0.0">
+	<testsuite disabled="0" errors="0" failures="4" name="test-results.xml" skipped="0" tests="19" time="0">
 		<testcase name="console_prompt">
 			<failure type="failure" message="Did not receive prompt rc=2"/>
 		</testcase>
@@ -13,50 +13,20 @@
 		<testcase name="help">
 			<failure type="failure" message="Did not find pattern &quot;dc &quot; rc=2"/>
 		</testcase>
-		<testcase name="gpio-d-1">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-2">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-3">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-4">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-5">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-6">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-7">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-8">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-9">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-d-10">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-s-1">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-s-2">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-s-3">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-s-4">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
-		<testcase name="gpio-s-5">
-			<failure type="failure" message="At step idx 0 did not find pattern &quot;OK&quot; rc=2"/>
-		</testcase>
+		<testcase name="gpio-d-1"/>
+		<testcase name="gpio-d-2"/>
+		<testcase name="gpio-d-3"/>
+		<testcase name="gpio-d-4"/>
+		<testcase name="gpio-d-5"/>
+		<testcase name="gpio-d-6"/>
+		<testcase name="gpio-d-7"/>
+		<testcase name="gpio-d-8"/>
+		<testcase name="gpio-d-9"/>
+		<testcase name="gpio-d-10"/>
+		<testcase name="gpio-s-1"/>
+		<testcase name="gpio-s-2"/>
+		<testcase name="gpio-s-3"/>
+		<testcase name="gpio-s-4"/>
+		<testcase name="gpio-s-5"/>
 	</testsuite>
 </testsuites>
