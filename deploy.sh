@@ -11,10 +11,10 @@ echo "deploying..."
 # <<EOF tells shell to give the following lines to the sftp terminal
 sshpass -p "root" ssh root@192.168.7.2 <<EOF
 cd /mnt/data/etc
-if test -f "test";
+if test -f "test.txt";
 then
     echo "test has found."
-    rm test
+    rm test.txt
 else
     echo "clear for build"
 fi
@@ -22,7 +22,7 @@ exit
 EOF
 
 # upload files from build to the remote file build
-sshpass -p "root" scp /test/build/test root@192.168.7.2:/mnt/data/etc
+sshpass -p "root" scp test.txt root@192.168.7.2:/mnt/data/etc
 
 echo "deploy finished"
 
