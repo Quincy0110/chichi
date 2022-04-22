@@ -11,7 +11,13 @@ echo "deploying..."
 # <<EOF tells shell to give the following lines to the sftp terminal
 sshpass -p "root" ssh root@192.168.7.2 <<EOF
 cd /mnt/data/etc
-rm test
+if test -f "test";
+then
+    echo "test has found."
+    rm test
+else
+    echo "clear for build"
+fi
 exit
 EOF
 
