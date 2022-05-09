@@ -46,9 +46,10 @@ pipeline {
             }
         }
         
+        
     }
     post {
-        success { echo 'HURRAAAAAY' }
+        success { junit 'test_reports/*.xml' }
         unstable { echo 'HMMMMM' }
         failure { echo 'NOOOOOO' }
     }
