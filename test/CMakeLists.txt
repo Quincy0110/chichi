@@ -8,6 +8,6 @@ IF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
   SET(CMAKE_INSTALL_PREFIX . CACHE PATH "chihtq change" FORCE)
 ENDIF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 
-add_executable(test main.cpp)
+add_executable(test.run main.cpp)
 
-install (TARGETS test DESTINATION bin)
+install (TARGETS test.run DESTINATION bin)
