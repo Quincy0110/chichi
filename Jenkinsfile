@@ -9,10 +9,12 @@ pipeline {
         }
         
         stage('deploy') {
-            sh '''sshpass -p "root" ssh root@192.168.7.2 \'
-            ls /mnt/data/etc
+            steps {
+                sh '''sshpass -p "root" ssh root@192.168.7.2 \'
+                ls /mnt/data/etc
 
-            \''''
+                \''''
+            }
         }
         
         
